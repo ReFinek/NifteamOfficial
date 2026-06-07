@@ -1,2 +1,0 @@
-# NifteamOfficial
-A nifteam site
