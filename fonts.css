@@ -1,0 +1,48 @@
+@font-face {
+  font-family: BDTTI;
+  src: url("fonts/dkblackbamboorusbylyajka.ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: BACKROOMS;
+  src: url("fonts/RealVhsFontRegular.ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: AEROPOLIS;
+  src: url("fonts/Destroyed\ Aero.ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Swampy;
+  src: url("fonts/Swampy\ Clean.ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.BDTTI {
+    font-family: BDTTI;
+    font-size: clamp(4.5rem, 8vw, 15rem);
+    max-width: 150vh;
+}
+.BACKROOMS {
+    font-family: BACKROOMS;
+    font-size: clamp(4.5rem, 14vw, 15rem);
+    max-width: 130vh;
+}
+.AEROPOLIS {
+    font-family: AEROPOLIS;
+    font-size: clamp(4.5rem, 11vw, 15rem);
+}
+
+.Swampy {
+    font-family: Swampy;
+    font-size: clamp(4.5rem, 8vw, 15rem);
+}
